@@ -18,13 +18,12 @@ Haga clic en el botón verde "Code"
 
 Seleccione "Download ZIP"
 
-Extraiga el archivo ZIP en una carpeta de su elección (Ej: Escritorio/BookHaven-Project)
+Extraiga el archivo ZIP en una carpeta de su elección (Ej: Escritorio/proyecto-integrador-2025-orozco-MateoOr0)
 
 ESTRUCTURA DE LA CARPETA
 Al extraer, su carpeta raíz debe contener DOS subcarpetas esenciales:
 
-text
-bookhaven-project/
+proyecto-integrador-2025-orozco-MateoOr0/
 ├── 📁 backend/    (Contiene el servidor Node.js/Express)
 └── 📁 frontend/   (Contiene la aplicación React/Vite)
 ⚙️ PASO 2: INSTALAR DEPENDENCIAS
@@ -40,7 +39,7 @@ Mac/Linux: Busque y abra la aplicación "Terminal"
 Navegue a la carpeta backend:
 
 bash
-cd [RUTA_DE_SU_PROYECTO]/bookhaven-project/backend
+cd [RUTA_DE_SU_PROYECTO]/proyecto-integrador-2025-orozco-MateoOr0/backend
 Ejemplo (si está en el Escritorio): cd Desktop/bookhaven-project/backend
 
 Instale las dependencias (solo una vez):
@@ -55,8 +54,8 @@ Abra una SEGUNDA ventana de Terminal/Consola (No cierre la primera terminal del 
 Navegue a la carpeta frontend:
 
 bash
-cd [RUTA_DE_SU_PROYECTO]/bookhaven-project/frontend
-Ejemplo: cd Desktop/bookhaven-project/frontend
+cd [RUTA_DE_SU_PROYECTO]/proyecto-integrador-2025-orozco-MateoOr0/frontend
+Ejemplo: cd Desktop/proyecto-integrador-2025-orozco-MateoOr0/frontend
 
 Instale las dependencias (solo una vez):
 
@@ -98,28 +97,13 @@ Abra su navegador web (Chrome, Firefox, Edge, etc.)
 
 Vaya a esta dirección: http://localhost:5173
 
-VERIFICACIÓN TÉCNICA (Opcional)
-Mientras el frontend carga, puede verificar el estado del backend en una nueva pestaña:
-
-Estado del Backend: http://localhost:3001/api/health
-
-Debe mostrar: {"status":"OK","message":"Servidor funcionando correctamente"}
-
-🧪 PRUEBAS DE FUNCIONALIDAD
-Realice estas pruebas para confirmar que la aplicación funciona correctamente:
-
-Prueba	Acción	Verificación
-🔐 Login	Use credenciales: Email: admin@bookhaven.com Password: admin123	Debe ver el catálogo de libros y carrito
-📚 Catálogo	Navegue por los libros	Se muestran 6 libros de ejemplo con imágenes
-🛒 Carrito	Agregue 2 libros con "Agregar"	Los ítems aparecen en el carrito lateral
-🔍 Búsqueda	Use la barra de búsqueda (ej: "Harry Potter")	Muestra resultados de Google Books API
-💳 Checkout	Haga clic en "Finalizar Compra" → Complete datos → "Confirmar Pago"	Mensaje de éxito y orden procesada
 🆘 SOLUCIÓN DE PROBLEMAS RÁPIDA
 Problema	Solución
 "npm no se reconoce"	Reinstalar Node.js desde nodejs.org
 La página no carga	Verifique que ambas terminales estén ejecutándose y use http://localhost:5173
 Error: "Cannot connect to backend"	Backend no está activo. Verifique Terminal 1 con npm run dev
 Error de dependencias	Ejecute npm install nuevamente en ambas carpetas y reinicie
+
 🏗️ ESTRUCTURA TÉCNICA COMPLETA
 Frontend: React 19 + Vite (Puerto 5173)
 
@@ -128,5 +112,6 @@ Backend: Node.js + Express.js (Puerto 3001)
 Base de datos: SQLite (archivo bookhaven.db persistente)
 
 Seguridad: Autenticación con bcryptjs + tokens JWT
+
 
 Funcionalidades: Registro/Login, Catálogo, Carrito, Checkout, Google Books API
