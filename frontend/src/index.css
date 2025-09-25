@@ -1,0 +1,40 @@
+:root {
+  --primary: #8B4513;
+  --primary-light: #A0522D;
+  --secondary: #2E8B57;
+  --accent: #D2691E;
+  --light: #F5F5F0;
+  --dark: #2C1810;
+  --gray: #696969;
+  --light-gray: #D3D3D3;
+  --border-radius: 12px;
+  --box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  --transition: all 0.3s ease;
+  --text-color: #333; /* Añadida variable para el color del texto */
+}
+
+/* El CSS global no debe afectar elementos que serán estilizados por App.css */
+/* He removido los estilos por defecto que causaban el problema de las fuentes grandes */
+
+body { 
+  font-family: 'Georgia', 'Times New Roman', serif; 
+  background: linear-gradient(135deg, #FAF0E6 0%, #FFF8DC 100%);
+  margin: 0; 
+  color: var(--text-color); /* Usar la nueva variable para un color de texto consistente */
+  line-height: 1.6;
+}
+
+/* No es necesario definir estilos de h1, botones y enlaces aquí si se definen en App.css */
+/* Mantendré solo los estilos que considero universales */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap { 
+  max-width: 1200px; 
+  margin: 20px auto; 
+  padding: 15px;
+}
