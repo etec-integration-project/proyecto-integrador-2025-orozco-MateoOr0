@@ -1,0 +1,110 @@
+BookHaven - Avances Diarios del Proyecto
+
+Día 1: Configuración Inicial
+Creé la estructura de carpetas del proyecto
+
+Configuré package.json para backend y frontend
+
+Instalé las dependencias básicas (Express, React, SQLite)
+
+Progreso: Proyecto inicializado
+
+Día 2: Base de Datos y Servidor
+Creé la base de datos SQLite con tablas para usuarios y libros
+
+Configuré el servidor Express básico
+
+Agregué endpoints simples de prueba
+
+Progreso: Backend básico funcionando
+
+Día 3: Sistema de Login
+Implementé el registro de usuarios
+
+Agregué login con bcrypt para contraseñas
+
+Creé la lógica de autenticación simple
+
+Progreso: Usuarios pueden registrarse y loguearse
+
+Día 4: CRUD de Libros
+Agregué endpoints para manejar libros
+
+Inserté 6 libros de ejemplo en la base de datos
+
+Implementé búsqueda básica por categoría
+
+Progreso: Catálogo de libros funcionando
+
+Día 5: Frontend Básico
+Configuré React con Vite
+
+Creé los componentes principales (Header, Card)
+
+Implementé diseño básico con CSS
+
+Progreso: Interfaz visual inicial lista
+
+Día 6: Integración Frontend-Backend
+Conecté React con la API del backend
+
+Implementé el sistema de login en el frontend
+
+Mostré los libros del catálogo en la interfaz
+
+Progreso: Frontend y backend comunicándose
+
+Día 7: Carrito de Compras
+Agregué funcionalidad de carrito en el frontend
+
+Implementé agregar/remover items del carrito
+
+Calculé totales automáticamente
+
+Progreso: Carrito de compras funcionando
+
+Día 8: Sistema de Órdenes
+Creé la tabla de órdenes en la base de datos
+
+Implementé endpoint para crear órdenes
+
+Agregué historial básico de compras
+
+Progreso: Sistema de pedidos implementado
+
+Día 9: Checkout y Pagos
+Desarrollé la página de checkout
+
+Agregué validación de formularios
+
+Implementé simulación de pago simple
+
+Progreso: Proceso de compra completo
+
+Día 10: Google Books API
+Integré la API de Google Books para búsqueda
+
+Agregué barra de búsqueda en el frontend
+
+Mostré resultados de libros externos
+
+Progreso: Búsqueda externa de libros activa
+
+Día 11: Mejoras de Diseño
+Mejoré el CSS para que sea responsive
+
+Agregué iconos y mejoras visuales
+
+Corregí problemas de diseño menores
+
+Progreso: Interfaz más pulida y profesional
+
+Día 12: Testing y Ajustes Finales
+Probé todas las funcionalidades
+
+Corregí bugs encontrados
+
+Preparé la documentación del proyecto
+
+Progreso: Proyecto listo para entregar
+
