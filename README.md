@@ -1,4 +1,4 @@
-BOOKHAVEN - GUÍA DE INSTALACIÓN PASO A PASO
+yyyyyyBOOKHAVEN - GUÍA DE INSTALACIÓN PASO A PASO
 ESTIMADO PROFESOR:
 Esta guía le permitirá instalar y ejecutar la aplicación Full-Stack BookHaven (Frontend: React/Vite, Backend: Node.js/Express) en su computadora. Siga las instrucciones en ORDEN y al pie de la letra.
 
@@ -18,12 +18,12 @@ Haga clic en el botón verde "Code"
 
 Seleccione "Download ZIP"
 
-Extraiga el archivo ZIP en una carpeta de su elección (Ej: Escritorio/proyecto-integrador-2025-orozco-MateoOr0)
+Extraiga el archivo ZIP con la opcion de estraer aqui en una carpeta de su elección que sea el escritorio preferiblemente (Ej: Escritorio/proyecto-integrador-2025-orozco-MateoOr0-main)
 
 ESTRUCTURA DE LA CARPETA
 Al extraer, su carpeta raíz debe contener DOS subcarpetas esenciales:
 
-proyecto-integrador-2025-orozco-MateoOr0/
+proyecto-integrador-2025-orozco-MateoOr0-main/
 ├── 📁 backend/    (Contiene el servidor Node.js/Express)
 └── 📁 frontend/   (Contiene la aplicación React/Vite)
 ⚙️ PASO 2: INSTALAR DEPENDENCIAS
@@ -39,8 +39,8 @@ Mac/Linux: Busque y abra la aplicación "Terminal"
 Navegue a la carpeta backend:
 
 bash
-cd [RUTA_DE_SU_PROYECTO]/proyecto-integrador-2025-orozco-MateoOr0/backend
-Ejemplo (si está en el Escritorio): cd Desktop/bookhaven-project/backend
+cd [RUTA_DE_SU_PROYECTO]/proyecto-integrador-2025-orozco-MateoOr0-main/backend
+Ejemplo (si está en el Escritorio): cd Desktop/proyecto-integrador-2025-orozco-MateoOr0-main/backend
 
 Instale las dependencias (solo una vez):
 
@@ -54,8 +54,8 @@ Abra una SEGUNDA ventana de Terminal/Consola (No cierre la primera terminal del 
 Navegue a la carpeta frontend:
 
 bash
-cd [RUTA_DE_SU_PROYECTO]/proyecto-integrador-2025-orozco-MateoOr0/frontend
-Ejemplo: cd Desktop/proyecto-integrador-2025-orozco-MateoOr0/frontend
+cd [RUTA_DE_SU_PROYECTO]/proyecto-integrador-2025-orozco-MateoOr0-main/frontend
+Ejemplo: cd Desktop/proyecto-integrador-2025-orozco-MateoOr0-main/frontend
 
 Instale las dependencias (solo una vez):
 
@@ -115,3 +115,4 @@ Seguridad: Autenticación con bcryptjs + tokens JWT
 
 
 Funcionalidades: Registro/Login, Catálogo, Carrito, Checkout, Google Books API
+
