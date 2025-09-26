@@ -2,8 +2,6 @@ BOOKHAVEN - GUÍA DE INSTALACIÓN PASO A PASO
 ESTIMADO PROFESOR:
 Esta guía le permitirá instalar y ejecutar la aplicación Full-Stack BookHaven (Frontend: React/Vite, Backend: Node.js/Express) en su computadora. Siga las instrucciones en ORDEN y al pie de la letra.
 
-NIVEL DE DIFICULTAD: Básico (no se requieren conocimientos técnicos avanzados)
-
 📋 PRERREQUISITOS
 Estado	Requisito	Notas
 ✅	Node.js instalado (versión 18 o superior)	Descargue la versión LTS de nodejs.org. Instálelo con todos los valores por defecto.
@@ -134,6 +132,7 @@ Seguridad: Autenticación con bcryptjs + tokens JWT
 
 
 Funcionalidades: Registro/Login, Catálogo, Carrito, Checkout, Google Books API
+
 
 
 
