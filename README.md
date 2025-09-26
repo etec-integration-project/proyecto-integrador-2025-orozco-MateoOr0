@@ -20,8 +20,28 @@ Seleccione "Download ZIP"
 
 Extraiga el archivo ZIP con la opcion de estraer aqui en una carpeta de su elección que sea el escritorio preferiblemente (Ej: Escritorio/proyecto-integrador-2025-orozco-MateoOr0-main)
 
+cd proyecto-integrador-2025-orozco-MateoOr0OPCIÓN 
+
+OPCION B(Para usuarios que tienen Git instalado):
+PASO 1: Abrir Command Prompt (CMD)
+
+Presione Tecla Windows + R
+
+Escriba cmd y presione Enter
+
+PASO 2: Navegar al Escritorio
+
+cd Desktop
+PASO 3: Clonar el repositorio
+
+git clone https://github.com/usuario/proyecto-integrador-2025-orozco-MateoOr0.git
+
+PASO 4: Acceder a la carpeta del proyecto
+
+cd proyecto-integrador-2025-orozco-MateoOr0
+
 ESTRUCTURA DE LA CARPETA
-Al extraer, su carpeta raíz debe contener DOS subcarpetas esenciales:
+Su carpeta raíz debe contener DOS subcarpetas esenciales:
 
 proyecto-integrador-2025-orozco-MateoOr0-main/
 ├── 📁 backend/    (Contiene el servidor Node.js/Express)
@@ -115,5 +135,6 @@ Seguridad: Autenticación con bcryptjs + tokens JWT
 
 
 Funcionalidades: Registro/Login, Catálogo, Carrito, Checkout, Google Books API
+
 
 
